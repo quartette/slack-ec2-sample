@@ -1,0 +1,52 @@
+{
+    "resource": "/slack",
+    "path": "/slack",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-Country": "US",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "xxxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com",
+        "User-Agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+        "Via": "1.1 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "X-Amzn-Trace-Id": "Root=1-00000000-000000000000000000000000",
+        "X-Forwarded-For": "10.0.0.0, 10.0.0.0",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "accountId": "000000000000",
+        "resourceId": "xxxxxx",
+        "stage": "dev",
+        "requestId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "apiKey": null,
+            "sourceIp": "10.0.0.0",
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+            "user": null
+        },
+        "resourcePath": "/slack",
+        "httpMethod": "POST",
+        "apiId": "xxxxxxxxxx"
+    },
+    "body": "token=xxxxxxxxxxxxxxxxxxxxxxxx&team_id=XXXXXXXXXX&team_domain=hoge&service_id=000000000000&channel_id=C00000000&channel_name=general&timestamp=1487348338.003810&user_id=U00000000&user_name=quartette&text=%24server+status&trigger_word=%24server",
+    "isBase64Encoded": false
+}
